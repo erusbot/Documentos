@@ -1,5 +1,6 @@
-## Diretório de Tutoriais da ERUS
+### ERUS Tutorials
 
-### Todos os Tutoriais devem ser elaborados conforme padrão abaixo:
+#### All tutorials should be prepared according to the standard below:
 
-#### Assim que o padrão for definido =D
+##### 1. Texts should be written __only__ in English;
+##### 2. Files must be saved in __.md__ (markdown) format to be displayed correctly on github;
