@@ -1,0 +1,61 @@
+\documentclass[12pt,a4paper,titlepage,fleqn,%
+               headinclude,footinclude%
+               numbers=noenddot,cleardoublepage=empty,%
+               tablecaptionabove]{scrreprt}
+               
+        
+\usepackage[brazil]{babel}       
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{varioref}
+\usepackage[style=philosophy-modern,hyperref,square,natbib]{biblatex}
+\usepackage{chngpage}
+\usepackage{calc}
+\usepackage{listings}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{subfig}
+\usepackage{multicol}
+\usepackage{makeidx}
+\usepackage{fixltx2e}
+\usepackage{relsize}
+\usepackage{lipsum}
+\usepackage{hyperref}
+\usepackage[eulerchapternumbers,subfig,beramono,eulermath,pdfspacing,listings]{classicthesis}
+\usepackage{epstopdf}
+\usepackage{reg_erus}
+\usepackage{tocloft}
+\usepackage{color}
+
+\newcommand{\hilight}[1]{\colorbox{yellow}{\textbf{#1}}}
+
+
+\usepackage{a4}                       % tamanho da pÃ¯Â¿Â½gina
+\setlength{\textwidth}{16.0cm}        % largura do texto
+\setlength{\textheight}{9.0in}        % tamanho do texto (sem head, etc)
+\renewcommand{\baselinestretch}{1.25} % espaÃ¯Â¿Â½amento entre linhas
+\addtolength{\topmargin}{-1cm}        % espaÃ¯Â¿Â½o entre o head e a margem
+\setlength{\oddsidemargin}{-0.1cm}    % espaÃ¯Â¿Â½o entre o texto e a margem
+\setlength{\parindent}{0cm} % Default is 15pt.
+\parskip 5pt  
+
+\input{reg-settings}
+
+\begin{document}
+\pagenumbering{roman}
+\pagestyle{plain}
+%******************************************************************
+% Capa
+%******************************************************************
+\input{Capas/Capa}
+\input{Capas/Contracapa}
+\clearpage
+\input{Capas/Sumario}
+
+%******************************************************************
+% Conteudo
+%******************************************************************
+\pagenumbering{arabic}
+\input{Conteudo/Regulamento}
+\end{document}
